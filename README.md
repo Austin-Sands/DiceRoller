@@ -7,7 +7,9 @@ THREE.js website. I also watched a video on Ammo.js implementation when running 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This is a simple implementation of three.js and ammo.js used to create two six-sided dice objects. When you hover over the dice with the mouse they 
 should be outlined in yellow. If clicked on, the outline will change to white and remain until the mouse is clicked anywhere except over a dice object. 
-With the dice selected, you can roll the dice using the space bar. 
+With the dice selected, you can roll the dice using the space bar. The texture for the dice is an array of simple images I created in photoshop.
+
+this project utilizes THREE.js and Ammo.js
 
 Thanks for looking at my work!
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

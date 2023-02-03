@@ -1,0 +1,46 @@
+<!--
+File:	Project1.html
+Author:	Austin Sands
+Date:	01/29/2023
+Desc:	This HTML file is made to facilitate the js file used for my class project. 
+ -->
+
+<!DOCTYPE html>
+<html lang = "en-us">
+	<head>
+		<meta charset = "UTF-8" />
+		<meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+		<title>My Three.js Dice Roller</title>
+		<style type = "text/css">
+			body {
+				margin: 0;
+			}
+			canvas {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		
+	</head>
+	
+	<body>
+		<!-- import map for needed libraries -->
+		<script type="importmap">
+		  {
+			"imports": {
+			  "three": "/node_modules/three/build/three.module.js",
+			  "OrbitControls": "/node_modules/three/examples/jsm/controls/OrbitControls.js",
+			  "RoundedBoxGeometry": "/node_modules/three/examples/jsm/Geometries/RoundedBoxGeometry.js",
+			  "Stats": "/node_modules/three/examples/jsm/libs/stats.module.js",
+			  "EffectComposer": "/node_modules/three/examples/jsm/postprocessing/EffectComposer.js",
+			  "RenderPass": "/node_modules/three/examples/jsm/postprocessing/RenderPass.js",
+			  "OutlinePass": "/node_modules/three/examples/jsm/postprocessing/OutlinePass.js"
+			}
+		  }
+		</script>
+		<!-- <script src = "ammo.js"></script>	<!-- load ammo.js for physics --> -->
+		<script src = "/node_modules/three/examples/jsm/libs/ammo.wasm.js"></script>
+		
+		<script type = "module" src = "diceRoller.js"></script>
+	</body>
+</html>
